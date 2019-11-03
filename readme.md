@@ -43,7 +43,7 @@ This allows the Arduino IDE to define the builtin_led so it will select the appr
 
 # IDE configuration
 
-Once MightyCore has been corretly insalled in the Arduino IDE and modified, you will need to select in the Tools menu
+Once MightyCore has been correctly insalled in the Arduino IDE and modified, you will need to select in the Tools menu
 
 * board: Atmega644 or Atmega1284
 * clock: external 16 MHz
