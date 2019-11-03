@@ -4,7 +4,7 @@
 
 644 Narrow and 1284 Narrow are tiny boards based on Atmega644/Atmega1284, using the MightyCore https://github.com/MCUdude/MightyCore.
 
-It is conceived to be an upgrade for any project using the Nano board or any other Arduino board based on Atmega328.
+It is conceived to be an upgrade for any project using the Nano board or any other Arduino board particularly those based on Atmega328 but also other MCUs because it gives a lot of resources on a tiny board while keeping the 8 bits technology that is more efficient in using resources.
 
 <img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/board-outline-nano-narrow-uno-mega-1-5x_png_project-body.jpg">
 
