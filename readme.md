@@ -40,3 +40,22 @@ you could save the old file and replace it with the provided boards.txt
 This allows the Arduino IDE to define the builtin_led so it will select the appropriate bootloader.
 
 <img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/narrow-v0-8-pinout_jpg_project-body.jpg">
+
+# IDE configuration
+
+Once MightyCore has been corretly insalled in the Arduino IDE and modified, you will need to select in the Tools menu
+
+* board: Atmega644 or Atmega1284
+* clock: external 16 MHz
+* BOD: 2.7V
+* Compiler LTO disabled
+* Variant 644P or 1284P
+* Pinout Narrow pinout (if not selectable then you did not changed boards.txt)
+* Bootloader: yes (UART0)
+
+If needed you can upload the bootloader.
+
+When the bootloader is present "L led (yellow)" continuously flashes twice if not other program is loaded.
+
+You can then load your program as usual.
+
