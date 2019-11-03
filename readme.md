@@ -21,8 +21,6 @@ Two examples sketches are provided to show the use of this OLED to display graph
 
 You need to install https://github.com/MCUdude/MightyCore
 
-**** Voir la mise à jour possible de MCDude
-
 MightyCore will possibly commit changes from me to support 644/1284 Narrow.
 
 At the moment you will need to modify MightyCore:
