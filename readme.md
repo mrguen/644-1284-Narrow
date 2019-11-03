@@ -1,6 +1,6 @@
 # 644/1284 Narrow
 
-<img src="https:">
+<img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/644-narrow-top-3d-2-1_jpg_project-main.jpg">
 
 Version: 0.9 by Pandauino.com / Thierry GUENNOU / mrguen https://github.com/mrguen - April 2019
 
@@ -8,10 +8,15 @@ Version: 0.9 by Pandauino.com / Thierry GUENNOU / mrguen https://github.com/mrgu
 
 It is conceived to be an upgrade for any project using the Nano board or any other Arduino board based on Atmega328.
 
+<img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/board-outline-nano-narrow-uno-mega-1-5x_png_project-body.jpg">
+
+
 There is a slot to solder an optional small 0.49" 64x32 OLED.
 To the difference with the standard pinout, the builtin_led is PB7.
 
 Two examples sketches are provided to show the use of this OLED to display graphics (using Adafruit's libraries) or advanced text rendering (using Greiman's library).
+
+<img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/644-narrow-top-3d-with-oled_png_project-body.jpg">
 
 
 # Installation
@@ -37,3 +42,5 @@ This will add the "Narrow" variant
 you could save the old file and replace it with the provided boards.txt 
 
 This allows the Arduino IDE to define the builtin_led so it will select the appropriate bootloader.
+
+<img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/narrow-v0-8-pinout_jpg_project-body.jpg">
