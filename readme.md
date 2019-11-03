@@ -29,7 +29,7 @@ At the moment you will need to modify MightyCore:
 
 This adds two new bootloader with the LED name included in the bootloader name
 
-* add the variants dorectory to YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\2.0.3
+* add the variants directory to YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\2.0.3
 
 This will add the "Narrow" variant
 
