@@ -1,6 +1,6 @@
 # 644/1284 Narrow
 
-<img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/644-narrow-top-3d-2-1_jpg_project-main.jpg">
+<img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/644_1284%20Narrow%20v0.9%20global%20view.jpg">
 
 644 Narrow and 1284 Narrow are tiny boards based on Atmega644/Atmega1284, using the MightyCore https://github.com/MCUdude/MightyCore.
 
@@ -14,7 +14,7 @@ To the difference with the standard pinout, the builtin_led is PB7.
 
 Two examples sketches are provided to show the use of this OLED to display graphics (using Adafruit's libraries) or advanced text rendering (using Greiman's library).
 
-<img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/644-narrow-top-3d-with-oled_png_project-body.jpg">
+<img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/644%20Narrow%20v0.9%20OLED%20TOP%203D.jpg">
 
 
 # Installation
@@ -39,7 +39,7 @@ you could save the old file and replace it with the provided boards.txt
 
 This allows the Arduino IDE to define the builtin_led so it will select the appropriate bootloader.
 
-<img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/narrow-v0-8-pinout_jpg_project-body.jpg">
+<img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/Narrow_V0.9_Pinout.jpg">
 
 # IDE configuration
 
