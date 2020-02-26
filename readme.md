@@ -79,12 +79,12 @@ You can then load your program as usual.
 
 # Programming examples
 
-**Blink**
+**Blink**  
 Usually you might want to check that everything is working properly by programming the  sketch Blink.ino that you will find in the Arduino IDE menu Files/Examples/Basic/Blink
 
 The led labelled “L” on the board will be blinking at low speed.
 
-**2nd Serial port**
+**2nd Serial port**  
 
 This board has two serial ports. 
 
@@ -104,7 +104,7 @@ Connect pins TX and 10 together.
 Program the sketch through the USB port. In the Serial Monitor, if you type a letter to send to the board through the Serial port, it will display endlessly on the screen because it is sent back by serial “0” Tx pin to the serial monitor and also to serial “1” Rx, that writes again to serial “0” Tx. 
 
  
-**0.49” OLED display**
+**0.49” OLED display**  
 
 There is a group of four plated through-holes on the board to solder a tiny 0.49” OLED 64x32 pixels display. Not all I2C OLED modules connections are arranged in the same order so check it before soldering in your display. These holes are connected to 
 
@@ -126,3 +126,6 @@ https://github.com/mrguen/644-1284-Narrow/tree/master/examples/test_SSD1306_Asci
 
 Initially based on https://github.com/greiman/SSD1306Ascii library, it is mostly limited to text rendering but with a large and nice choice of fonts.
 
+# Complete user's manual
+
+See the content of https://github.com/mrguen/644-1284-Narrow/tree/master/doc
