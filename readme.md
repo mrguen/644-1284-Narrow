@@ -54,9 +54,11 @@ to include these lines written in https://github.com/mrguen/644-1284-Narrow/blob
 1284.menu.pinout.narrow.build.builtin_led=B7**
 
 This allows the Arduino IDE to define the builtin_led so it will select the appropriate bootloader.
-
+  
+  
 <img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/Narrow_V0.9_Pinout.jpg">
-
+  
+  
 # IDE configuration
 
 Once MightyCore has been correctly insalled in the Arduino IDE and modified, you will need to select in the Tools menu
@@ -69,9 +71,58 @@ Once MightyCore has been correctly insalled in the Arduino IDE and modified, you
 * Pinout Narrow pinout (if not selectable then you did not changed boards.txt)
 * Bootloader: yes (UART0)
 
-If needed you can upload the bootloader.
+The bootloader has been installed already but if needed install it from the IDE menu Tools/Burn Bootloader.   
 
 When the bootloader is present "L led (yellow)" continuously flashes twice if not other program is loaded.
 
 You can then load your program as usual.
+
+# Programming examples
+
+**Blink**
+Usually you might want to check that everything is working properly by programming the  sketch Blink.ino that you will find in the Arduino IDE menu Files/Examples/Basic/Blink
+
+The led labelled “L” on the board will be blinking at low speed.
+
+**2nd Serial port**
+
+This board has two serial ports. 
+
+1) You can test that they are working using the sketch that you will find int the Arduino IDE menu File/Examples/Communication/MultiSerial
+
+
+This sketch needs to have a serial device attached to the Serial 1 port (pin 10 RX1, pin 11 TX1).
+
+
+2) If you don’t have such a device you can simply try this sketch
+
+https://github.com/mrguen/644-1284-Narrow/tree/master/examples/Endless_Serial_0_1/Endless_Serial_0_1.ino/ 
+
+
+Connect pins TX and 10 together.
+
+Program the sketch through the USB port. In the Serial Monitor, if you type a letter to send to the board through the Serial port, it will display endlessly on the screen because it is sent back by serial “0” Tx pin to the serial monitor and also to serial “1” Rx, that writes again to serial “0” Tx. 
+
+ 
+**0.49” OLED display**
+
+There is a group of four plated through-holes on the board to solder a tiny 0.49” OLED 64x32 pixels display. Not all I2C OLED modules connections are arranged in the same order so check it before soldering in your display. These holes are connected to 
+
+GND – 5V – SCL - SDA
+
+Attention: the labels SDA and SCL on the board are for the pins on the edge of the board and not for this connector that has SCL and SDA arranged the other way and that are not labelled.
+
+
+There are two examples available. 
+
+1) Using the Adafruit libraries 
+https://github.com/mrguen/644-1284-Narrow/tree/master/examples/test_SSD1306_Adafruit
+
+The Adafruit library is mostly interesting is you want to display shapes, or even bitmaps. See https://learn.adafruit.com/adafruit-gfx-graphics-library
+
+
+2)  Using Example using the Greiman library 
+https://github.com/mrguen/644-1284-Narrow/tree/master/examples/test_SSD1306_Ascii
+
+Initially based on https://github.com/greiman/SSD1306Ascii library, it is mostly limited to text rendering but with a large and nice choice of fonts.
 
