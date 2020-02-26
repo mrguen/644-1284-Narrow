@@ -10,8 +10,7 @@ They were conceived as an upgrade for any project using the Nano board or any ot
 <img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/board-outline-nano-narrow-uno-mega-1-5x_png_project-body.jpg">
 
 
-There is a slot to solder an optional small 0.49" 64x32 OLED.
-To the difference with the standard pinout, the builtin_led is PB7.
+There feature a slot to solder an optional small 0.49" 64x32 OLED.
 
 <img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/644%20Narrow%20v0.9%20OLED%20TOP%203D.jpg">
 
