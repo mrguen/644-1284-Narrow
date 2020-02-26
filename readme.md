@@ -30,6 +30,7 @@ The driver is available from http://www.wch.cn/download/CH341SER_EXE.html but th
 There are a couple of repositories on github to use Atmega644 and Atmega1284 MCUs in the Arduino IDE. See
 
 https://github.com/search?q=Atmega644
+or
 https://github.com/search?q=Atmega1284 
 
 But you will probably like the MightyCore. See the installation process https://github.com/MCUdude/MightyCore#how-to-install
