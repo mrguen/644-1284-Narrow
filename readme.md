@@ -12,18 +12,29 @@ It is conceived to be an upgrade for any project using the Nano board or any oth
 There is a slot to solder an optional small 0.49" 64x32 OLED.
 To the difference with the standard pinout, the builtin_led is PB7.
 
-Two examples sketches are provided to show the use of this OLED to display graphics (using Adafruit's libraries) or advanced text rendering (using Greiman's library).
-
 <img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/644%20Narrow%20v0.9%20OLED%20TOP%203D.jpg">
+
+Examples sketches are provided to show the use of this OLED to display graphics (using Adafruit's libraries) or advanced text rendering (using Greiman's library).
+
 
 
 # Installation
 
-You need to install https://github.com/MCUdude/MightyCore
+# CH340G
 
-MightyCore will possibly commit changes from me to support 644/1284 Narrow.
+You need to instal the CH340G Serial/USB driver if you want to communicate between the board and the PC USB port.
+The driver is available from http://www.wch.cn/download/CH341SER_EXE.html but the page is mostly in Chinese language. You can also refer to https://sparks.gogo.co.nz/ch340.html
 
-At the moment you will need to modify MightyCore:
+# Boards definition
+
+There are a couple of repositories on github to use Atmega644 and Atmega1284 MCUs in the Arduino IDE. See
+
+https://github.com/search?q=Atmega644
+https://github.com/search?q=Atmega1284 
+
+But you will probably like the MightyCore. See the installation process https://github.com/MCUdude/MightyCore#how-to-install
+
+Then make some additions to the MightyCore:
 
 * add the bootloaders directory content to YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\2.0.3\bootloaders\optiboot_flash
 
