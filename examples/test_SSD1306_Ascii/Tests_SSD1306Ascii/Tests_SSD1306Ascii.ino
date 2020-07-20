@@ -167,7 +167,7 @@ void testFonts() {
     
   oled.setFont(fontList[i]);
   oled.println("ABC*01");
-  delay(pauseDelay);
+  delay(5000);
   }
 }
 
@@ -289,12 +289,17 @@ void setup() {
   oled.clear();
   oled.println("library");
   delay(pauseDelay);
-    
+/*    
   test2X();
+
   delay(pauseDelay);
+  
   testRemap();
+
   testInvert();
+*/
   testFonts();
+/*
   delay(pauseDelay);
   testLetterSpacing();
   delay(pauseDelay);
@@ -315,16 +320,16 @@ void setup() {
   oled.println("ADC2: 9999");
   oled.println("ADC3: 9999");
   rows = oled.fontRows();
-  
+  */
 }
 //------------------------------------------------------------------------------
 void loop() {
-  
+  /*
   for (uint8_t i = 0; i < 4; i++) {  
     oled.setCursor(35, rows*i);
     oled.clearToEOL();
     oled.print(analogRead(i));
   }
   delay(1000);
-    
+    */
   }
