@@ -35,23 +35,18 @@ https://github.com/search?q=Atmega1284
 
 But you will probably like the MightyCore. See the installation process https://github.com/MCUdude/MightyCore#how-to-install
 
-Then make some additions to the MightyCore:
-
-* add the directory "narrow" that you will find in https://github.com/mrguen/644-1284-Narrow/tree/master/variants
-to 
-YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\ **2.0.3** \variants (the **version number** might be different!)
-
-* replace or modify the file YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\ **2.0.3** \boards.txt (the **version number** might be different!)
+Then replace the boards.txt file with the one that you will find at the root of this in this repository. 
+The file is located at YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\ **2.0.5** \boards.txt (the **version number** might be different!)
 
 to include these lines written in https://github.com/mrguen/644-1284-Narrow/blob/master/boards.txt
 
-**644.menu.pinout.narrow=Narrow pinout  
-644.menu.pinout.narrow.build.variant=narrow  
-644.menu.pinout.narrow.build.builtin_led=B7** 
+**644.menu.pinout.standard=Narrow pinout
+644.menu.pinout.standard.build.variant=standard
+644.menu.pinout.standard.build.bootloader_led=B7**
 
-**1284.menu.pinout.narrow=Narrow pinout  
-1284.menu.pinout.narrow.build.variant=narrow  
-1284.menu.pinout.narrow.build.builtin_led=B7**
+**1284.menu.pinout.narrow=Narrow pinout
+1284.menu.pinout.narrow.build.variant=standard
+1284.menu.pinout.narrow.build.bootloader_led=B7**
 
 This allows the Arduino IDE to define the builtin_led so it will select the appropriate bootloader.
   
