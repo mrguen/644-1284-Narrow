@@ -42,9 +42,9 @@ The file is located at YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\h
 
 to include these lines written in https://github.com/mrguen/644-1284-Narrow/blob/master/boards.txt
 
-**644.menu.pinout.standard=Narrow pinout  
-644.menu.pinout.standard.build.variant=standard  
-644.menu.pinout.standard.build.bootloader_led=B7**
+**644.menu.pinout.narrow=Narrow pinout  
+644.menu.pinout.narrow.build.variant=standard  
+644.menu.pinout.narrow.build.bootloader_led=B7**
 
 **1284.menu.pinout.narrow=Narrow pinout  
 1284.menu.pinout.narrow.build.variant=standard  
