@@ -281,9 +281,9 @@ menu.bootloader=Bootloader
 644.menu.pinout.sanguino=Sanguino pinout
 644.menu.pinout.sanguino.build.variant=sanguino
 644.menu.pinout.sanguino.build.bootloader_led=B0
-644.menu.pinout.standard=Narrow pinout
-644.menu.pinout.standard.build.variant=standard
-644.menu.pinout.standard.build.bootloader_led=B7
+644.menu.pinout.narrow=Narrow pinout
+644.menu.pinout.narrow.build.variant=standard
+644.menu.pinout.narrow.build.bootloader_led=B7
 
 # Variants
 644.menu.variant.modelP=644P / 644PA
