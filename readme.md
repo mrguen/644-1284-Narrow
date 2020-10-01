@@ -113,7 +113,7 @@ GND – 5V – SCL - SDA
 Attention: the labels SDA and SCL on the board are for the pins on the edge of the board and not for this connector that has SCL and SDA arranged the other way and that are not labelled.
 
 
-There are two examples available. 
+There are three examples available. 
 
 1) Using the Adafruit libraries 
 https://github.com/mrguen/644-1284-Narrow/tree/master/examples/test_SSD1306_Adafruit
@@ -121,10 +121,16 @@ https://github.com/mrguen/644-1284-Narrow/tree/master/examples/test_SSD1306_Adaf
 The Adafruit library is mostly interesting is you want to display shapes, or even bitmaps. See https://learn.adafruit.com/adafruit-gfx-graphics-library
 
 
-2)  Using Example using the Greiman library 
+2)  Using the Greiman library 
 https://github.com/mrguen/644-1284-Narrow/tree/master/examples/test_SSD1306_Ascii
 
 Initially based on https://github.com/greiman/SSD1306Ascii library, it is mostly limited to text rendering but with a large and nice choice of fonts.
+
+
+2)  Using the ST7789_Fast library by cbm80amiga 
+https://github.com/mrguen/644-1284-Narrow/tree/master/examples/Graphicstest_ST7789_Fast_Narrow_TFT_240x240_balloon
+That will allow you to fast draw heavy bitmaps
+
 
 
 **1024 samples FFT** 
