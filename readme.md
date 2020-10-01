@@ -126,10 +126,12 @@ https://github.com/mrguen/644-1284-Narrow/tree/master/examples/test_SSD1306_Asci
 
 Initially based on https://github.com/greiman/SSD1306Ascii library, it is mostly limited to text rendering but with a large and nice choice of fonts.
 
-# Complete user's manual
-
-See the content of https://github.com/mrguen/644-1284-Narrow/tree/master/doc
 
 **1024 samples FFT** 
 
 See https://www.instructables.com/1024-Samples-FFT-Spectrum-Using-an-Atmega1284/ 
+
+# Complete user's manual
+
+See the content of https://github.com/mrguen/644-1284-Narrow/tree/master/doc
+
