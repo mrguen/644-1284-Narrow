@@ -37,10 +37,13 @@ But you will probably like the MightyCore. See the installation process https://
 
 **You should update to the 2.0.5 version at least**
 
-Then replace the boards.txt file with the one that you will find at the root of this in this repository. 
-The file is located at YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\ **2.0.5** \boards.txt (the **version number** might be different!)
+* Add the "narrow" variant to YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\ **2.0.5** \variants (the **version number** might be different!)
 
-to include these lines written in https://github.com/mrguen/644-1284-Narrow/blob/master/boards.txt
+* And replace the boards.txt file located at YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\ **2.0.5** \boards.txt (the **version number** might be different!)
+
+with the one that you will find at the root of this repository. 
+
+This will add these lines to the boards.txt
 
 **644.menu.pinout.narrow=Narrow pinout  
 644.menu.pinout.narrow.build.variant=narrow  
@@ -50,7 +53,7 @@ to include these lines written in https://github.com/mrguen/644-1284-Narrow/blob
 1284.menu.pinout.narrow.build.variant=narrow  
 1284.menu.pinout.narrow.build.bootloader_led=B7**
 
-This allows the Arduino IDE to define the builtin_led so it will select the appropriate bootloader.
+To allow the Arduino IDE to select the appropriate bootloader.
   
   
 <img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/Narrow_V0.9_Pinout.jpg">
