@@ -37,7 +37,7 @@ But you will probably like the MightyCore. See the installation process https://
 
 **You should update to the 2.0.5 version at least**
 
-* Add the "narrow" variant to YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\ **2.0.5** \variants (the **version number** might be different!)
+* Add the "narrow" variant(https://github.com/mrguen/644-1284-Narrow/tree/master/variants) to YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\ **2.0.5** \variants (the **version number** might be different!)
 
 * And replace the boards.txt file located at YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\ **2.0.5** \boards.txt (the **version number** might be different!)
 
