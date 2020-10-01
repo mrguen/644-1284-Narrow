@@ -4,6 +4,8 @@ Using a fork by mrguen https://github.com/mrguen/Adafruit_SSD1306
 Based on https://github.com/WaiakeaRobotics/Adafruit_SSD1306
 Based on https://github.com/adafruit/Adafruit_SSD1306
 
+You will also need https://github.com/adafruit/Adafruit-GFX-Library
+
   Pick one up today in the adafruit shop!
   ------> http://www.adafruit.com/category/63_98
 

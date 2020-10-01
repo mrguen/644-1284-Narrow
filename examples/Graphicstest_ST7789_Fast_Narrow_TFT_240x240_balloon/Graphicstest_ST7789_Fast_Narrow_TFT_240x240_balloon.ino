@@ -2,6 +2,8 @@
  ST7789 library example
  (c) 2019 Pawel A. Hernik
  Modified by Tierry GUENNOU / Pandauino.com
+ Download the library from https://github.com/cbm80amiga/Arduino_ST7789_Fast
+ You will also need adafruit GFX https://github.com/adafruit/Adafruit-GFX-Library
  **************************************************************************/
  
 #define TFT_DC    13
