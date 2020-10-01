@@ -86,7 +86,7 @@ The led labelled “L” on the board will be blinking at low speed.
 
 **2nd Serial port**  
 
-This board has two serial ports. 
+The 1284 Narrow has two serial ports. 
 
 1) You can test that they are working using the sketch that you will find int the Arduino IDE menu File/Examples/Communication/MultiSerial
 
