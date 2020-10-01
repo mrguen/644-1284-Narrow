@@ -127,7 +127,7 @@ https://github.com/mrguen/644-1284-Narrow/tree/master/examples/test_SSD1306_Asci
 Initially based on https://github.com/greiman/SSD1306Ascii library, it is mostly limited to text rendering but with a large and nice choice of fonts.
 
 
-2)  Using the ST7789_Fast library by cbm80amiga 
+3)  Using the ST7789_Fast library by cbm80amiga 
 https://github.com/mrguen/644-1284-Narrow/tree/master/examples/Graphicstest_ST7789_Fast_Narrow_TFT_240x240_balloon
 That will allow you to fast draw heavy bitmaps
 
