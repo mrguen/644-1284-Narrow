@@ -18,64 +18,10 @@ Examples sketches are provided to show the use of this OLED to display graphics 
 
 
 
-# Installation
+# Installation and configuration:
 
-# CH340G
+Read the user's manuel located at https://github.com/mrguen/644-1284-Narrow/tree/master/doc
 
-You need to instal the CH340G Serial/USB driver if you want to communicate between the board and the PC USB port.
-The driver is available from http://www.wch.cn/download/CH341SER_EXE.html but the page is mostly in Chinese language. You can also refer to https://sparks.gogo.co.nz/ch340.html
-
-# Boards definition
-
-There are a couple of repositories on github to use Atmega644 and Atmega1284 MCUs in the Arduino IDE. See
-
-https://github.com/search?q=Atmega644  
-or  
-https://github.com/search?q=Atmega1284   
-
-But you will probably like the MightyCore. See the installation process https://github.com/MCUdude/MightyCore#how-to-install
-
-**You should update to the 2.0.5 version at least**
-
-* Add the "narrow" variant(https://github.com/mrguen/644-1284-Narrow/tree/master/variants) to YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\ **2.0.5** \variants (the **version number** might be different!)
-
-* And replace the boards.txt file located at YOUR_ARDUINO_PACKAGE_ROOT\Arduino15\packages\MightyCore\hardware\avr\ **2.0.5** \boards.txt (the **version number** might be different!)
-
-with the one that you will find at the root of this repository. 
-
-This will add these lines to the boards.txt
-
-**644.menu.pinout.narrow=Narrow pinout  
-644.menu.pinout.narrow.build.variant=narrow  
-644.menu.pinout.narrow.build.bootloader_led=B7**
-
-**1284.menu.pinout.narrow=Narrow pinout  
-1284.menu.pinout.narrow.build.variant=narrow  
-1284.menu.pinout.narrow.build.bootloader_led=B7**
-
-To allow the Arduino IDE to select the appropriate bootloader.
-  
-  
-<img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/Narrow_V0.9_Pinout.jpg">
-  
-  
-# IDE configuration
-
-Once MightyCore has been correctly insalled in the Arduino IDE and modified, you will need to select in the Tools menu
-
-* board: Atmega644 or Atmega1284
-* clock: external 16 MHz
-* BOD: 2.7V
-* Compiler LTO disabled
-* Variant 644P or 1284P
-* Pinout Narrow pinout (if not selectable then you did not changed boards.txt)
-* Bootloader: yes (UART0)
-
-The bootloader has been installed already but if needed install it from the IDE menu Tools/Burn Bootloader.   
-
-When the bootloader is present "L led (yellow)" continuously flashes twice if not other program is loaded.
-
-You can then load your program as usual.
 
 # Programming examples
 
