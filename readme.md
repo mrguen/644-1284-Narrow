@@ -30,6 +30,8 @@ To install Narrow boards there are a couple of possibilities
   It will:
   - Install the boards definitions in your local sketch/hardware folder
   - Install the CH340 driver (close the driver installer if it is already installed)
+
+  Then have a look at the Arduino IDE configuration in the user's manual  https://github.com/mrguen/644-1284-Narrow/tree/master/doc 
   
 **2) Manual install for Windows and other systems**
 
