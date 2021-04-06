@@ -2,7 +2,13 @@
 
 **644 Narrow and 1284 Narrow are tiny boards based on Atmega644/Atmega1284.** 
 
+**---------------------------------------  
+FR: Les cartes 644 Narrow et 1284 Narrow sont des cartes très compactes à base de Atmega644/Atmega1284.  
+La présentation détaillé est faite dans le manuel utilisateur. Voir: https://github.com/mrguen/644-1284-Narrow/tree/master/doc   
+---------------------------------------** 
+
 They were conceived as an upgrade for any project using the Nano board or any other Arduino board particularly those based on Atmega328. They can also compete with other MCUs because they provide a lot of resources on a tiny board while keeping the 8 bits technology that is more efficient in using resources.  
+
   
 <img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/644_1284%20Narrow%20v0.9%20global%20view.jpg">
 
@@ -17,10 +23,26 @@ There feature a slot to solder an optional small 0.49" 64x32 OLED.
 Examples sketches are provided to show the use of this OLED to display graphics (using Adafruit's libraries) or advanced text rendering (using Greiman's library).
 
 
-
 # Installation and configuration:
 
-Read the user's manuel located at https://github.com/mrguen/644-1284-Narrow/tree/master/doc
+To install Narrow boards there are a couple of possibilities
+
+**1) For Windows users: automatic install**
+
+* Download and execute https://github.com/mrguen/644-1284-Narrow/blob/master/install/MightyCore-Pandauino.exe
+  
+  The installer is not signed so it is normal if you get a warning. 
+  
+  It will:
+  - Install the boards definitions in your local sketch/hardware folder
+  - Install the CH340 driver (close the driver installer if it is already installed)
+
+  Then have a look at the Arduino IDE configuration in the user's manual  https://github.com/mrguen/644-1284-Narrow/tree/master/doc 
+  
+**2) Manual install for Windows and other systems**
+
+See the user's manual https://github.com/mrguen/644-1284-Narrow/tree/master/doc 
+"INSTALLATION" section
 
 
 # Programming examples
