@@ -2,6 +2,11 @@
 
 **644 Narrow and 1284 Narrow are tiny boards based on Atmega644/Atmega1284.** 
 
+**---------------------------------------
+FR: Les cartes 644 Narrow et 1284 Narrow sont des cartes très compactes à base de Atmega644/Atmega1284.
+La présentation détaillé est faite dans le manuel utilisateur. Voir: https://github.com/mrguen/644-1284-Narrow/tree/master/doc 
+---------------------------------------** 
+
 They were conceived as an upgrade for any project using the Nano board or any other Arduino board particularly those based on Atmega328. They can also compete with other MCUs because they provide a lot of resources on a tiny board while keeping the 8 bits technology that is more efficient in using resources.  
   
 <img src="https://github.com/mrguen/644-1284-Narrow/blob/master/images/644_1284%20Narrow%20v0.9%20global%20view.jpg">
