@@ -17,10 +17,24 @@ There feature a slot to solder an optional small 0.49" 64x32 OLED.
 Examples sketches are provided to show the use of this OLED to display graphics (using Adafruit's libraries) or advanced text rendering (using Greiman's library).
 
 
-
 # Installation and configuration:
 
-Read the user's manuel located at https://github.com/mrguen/644-1284-Narrow/tree/master/doc
+To install Narrow boards there are a couple of possibilities
+
+**1) For Windows users: automatic install**
+
+* Download and execute https://github.com/mrguen/644-1284-Narrow/blob/master/install/MightyCore-Pandauino.exe
+  
+  The installer is not signed so it is normal if you get a warning. 
+  
+  It will:
+  - Install the boards definitions in your local sketch/hardware folder
+  - Install the CH340 driver (close the driver installer if it is already installed)
+  
+**2) Manual install for Windows and other systems**
+
+See the user's manual https://github.com/mrguen/644-1284-Narrow/tree/master/doc 
+"INSTALLATION" section
 
 
 # Programming examples
